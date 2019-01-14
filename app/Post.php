@@ -4,11 +4,16 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
+use App\User;
 class Post extends Model
 {
     //@optional
     protected $table="post";
-    protected $fillable=['title','content'];
+    protected $fillable=['user_id','title','content'];
+
+    function user(){
+        return $this->belongsTo('App\user');
+    }
 
     function getTitleAttribute($value){
         //mutate our post title first letter
@@ -29,4 +34,5 @@ class Post extends Model
         $date_now=Carbon::now();
         return $date_now->diffForHumans($value);
     }
+
 }
