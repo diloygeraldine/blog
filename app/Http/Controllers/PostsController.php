@@ -54,4 +54,11 @@ class PostsController extends Controller
         return redirect()->route('posts');
     }
 
+    function view_details($id, $title){
+        $post=Post::find($id);
+        return view('details')->withPost($post);
+
+    }
+
+
 }
