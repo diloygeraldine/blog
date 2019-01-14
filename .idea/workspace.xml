@@ -25,8 +25,10 @@
       <file leaf-file-name="PostsController.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="59" column="0" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="63" column="0" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1547448396361" expanded="true" signature="134:1522" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -52,7 +54,7 @@
       <file leaf-file-name="web.php" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="38" column="0" selection-start="0" selection-end="1399" vertical-scroll-proportion="0.94603175">
+            <state line="22" column="0" selection-start="610" selection-end="610" vertical-scroll-proportion="0.16349207">
               <folding>
                 <element signature="e#11#429#0" expanded="true" />
               </folding>
@@ -81,7 +83,7 @@
       <file leaf-file-name="posts.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/posts.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="90" selection-start="744" selection-end="744" vertical-scroll-proportion="-14.461538">
+            <state line="27" column="90" selection-start="1045" selection-end="1045" vertical-scroll-proportion="-14.461538">
               <folding />
             </state>
           </provider>
@@ -90,7 +92,7 @@
       <file leaf-file-name="details.blade.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/resources/views/details.blade.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="10" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+            <state line="18" column="10" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -99,8 +101,13 @@
       <file leaf-file-name="2019_01_08_033103_create_post_table.php" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_08_033103_create_post_table.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="66" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0">
-              <folding />
+            <state line="28" column="66" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0">
+              <folding>
+                <marker date="1547448396355" expanded="true" signature="301:927" placeholder="..." />
+                <marker date="1547448396355" expanded="true" signature="338:926" placeholder="..." />
+                <marker date="1547448396355" expanded="true" signature="944:1008" placeholder=" Reverse the migrations. ..." />
+                <marker date="1547448396355" expanded="true" signature="1043:1086" placeholder="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -138,11 +145,11 @@
         <option value="$PROJECT_DIR$/resources/views/index.blade.php" />
         <option value="$PROJECT_DIR$/app/User.php" />
         <option value="$PROJECT_DIR$/app/Post.php" />
-        <option value="$PROJECT_DIR$/routes/web.php" />
         <option value="$PROJECT_DIR$/app/Http/Controllers/PostsController.php" />
         <option value="$PROJECT_DIR$/resources/views/posts.blade.php" />
         <option value="$PROJECT_DIR$/resources/views/details.blade.php" />
         <option value="$PROJECT_DIR$/database/migrations/2019_01_08_033103_create_post_table.php" />
+        <option value="$PROJECT_DIR$/routes/web.php" />
       </list>
     </option>
   </component>
@@ -498,7 +505,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="98" y="42" width="1456" height="836" extended-state="0" />
+    <frame x="98" y="42" width="1456" height="836" extended-state="1" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -646,35 +653,42 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/Http/Controllers/PostsController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="59" column="0" selection-start="1468" selection-end="1468" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="63" column="0" selection-start="1489" selection-end="1489" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1547448396361" expanded="true" signature="134:1522" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/posts.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="90" selection-start="744" selection-end="744" vertical-scroll-proportion="-14.461538">
+        <state line="27" column="90" selection-start="1045" selection-end="1045" vertical-scroll-proportion="-14.461538">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/resources/views/details.blade.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="10" selection-start="352" selection-end="352" vertical-scroll-proportion="0.0">
+        <state line="18" column="10" selection-start="397" selection-end="397" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/database/migrations/2019_01_08_033103_create_post_table.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="66" selection-start="701" selection-end="701" vertical-scroll-proportion="0.0">
-          <folding />
+        <state line="28" column="66" selection-start="893" selection-end="893" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1547448396355" expanded="true" signature="301:927" placeholder="..." />
+            <marker date="1547448396355" expanded="true" signature="338:926" placeholder="..." />
+            <marker date="1547448396355" expanded="true" signature="944:1008" placeholder=" Reverse the migrations. ..." />
+            <marker date="1547448396355" expanded="true" signature="1043:1086" placeholder="..." />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="38" column="0" selection-start="0" selection-end="1399" vertical-scroll-proportion="0.94603175">
+        <state line="22" column="0" selection-start="610" selection-end="610" vertical-scroll-proportion="0.16349207">
           <folding>
             <element signature="e#11#429#0" expanded="true" />
           </folding>

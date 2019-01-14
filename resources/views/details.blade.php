@@ -1,6 +1,7 @@
 @extends('index')
 
 @section('content')
+<<<<<<< HEAD
     @if(post)
         <article>
             <h3 class="text-succes text-capitalize">{{$post->title}}</h3>
@@ -13,3 +14,7 @@
         </article>
     @endif
 @endsection
+=======
+
+@endsection
+>>>>>>> post_validation
