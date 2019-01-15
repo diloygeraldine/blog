@@ -5,6 +5,7 @@ namespace App;
 use Illuminate\Database\Eloquent\Model;
 use Carbon\Carbon;
 use App\User;
+use App\Comment;
 class Post extends Model
 {
     //@optional
@@ -13,6 +14,10 @@ class Post extends Model
 
     function user(){
         return $this->belongsTo('App\user');
+    }
+
+    public function comment(){
+        return $this->hasMany(Comment::class);
     }
 
     function getTitleAttribute($value){
